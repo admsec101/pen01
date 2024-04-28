@@ -61,7 +61,7 @@ class StoreConnect():
                 }
                 # print('code ======',data)
             
-            if username != None and password != None :
+            if username != None:
                 # password autghentication method for guest client
                 data = {
                     "grant_type": "username",
